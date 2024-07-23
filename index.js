@@ -229,7 +229,7 @@
 // console.log(numbers)
 
 //arr.sort(sortedFunction) - функция сравнения (сортировкиk)
-let numbers = [5, 2, 9, 1, 5, 6]
+// let numbers = [5, 2, 9, 1, 5, 6]
 //числу а = 5
 //числу b = 2
 //применяем инструкцию a - b
@@ -242,4 +242,7 @@ let numbers = [5, 2, 9, 1, 5, 6]
 // console.log(res)
 // console.log(res2)
 
-
+let words = ['яблоко', 'банан', 'апельсин']
+// let result = words.sort((a, b) => a.localeCompare(b))
+let result = words.sort((a, b) => b.localeCompare(a))
+console.log(result)
