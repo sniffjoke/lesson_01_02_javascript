@@ -137,3 +137,37 @@
 // const resultApi = usersFromAPI1.concat(usersFromAPI2)
 // const resultApi2 = [...usersFromAPI1, ...usersFromAPI2]
 // console.log(resultApi2)
+
+//forEach -
+
+//arr.forEach(function(el, index, arr) {})
+
+// найти сумму элементов в массиве
+
+// const arr = [1, 2, 3, 4, 5]
+// let sum = 0
+// arr.forEach(function(item) {
+//     sum  = sum + item
+// })
+//
+// console.log(sum)
+
+// const arr = [1, 2, 3, 4, 5]
+// arr.forEach(function(item, index, array) {
+//     // console.log('el: ', item)
+//     // console.log('index: ', index)
+//     // console.log('array: ', array)
+//     array[index] = item * 2
+// })
+
+// console.log('arr: ', arr)
+
+//map - возвращает новый массивб принимает коллбек функцию и применяет эту коллбек функцию к каждому элементу массива
+
+const arr = [1, 2, 3, 4, 5]
+const res = arr.map((number) => {
+    console.log('number: ', number)
+    return number * 2
+})
+
+console.log(res)
