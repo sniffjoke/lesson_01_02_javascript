@@ -116,8 +116,24 @@
 //concat не раскрывает скобки
 
 //flat
-const initialArr = [ 1, 2, [ 3, 4, ['test 1', 'test 2', [1, 2]] ], [ 5, 6 ] ]
-const res = initialArr.flat() //по дефолту раскроет только один уровень вложенности
-console.log('res: ', res)
-const res1 = initialArr.flat(Infinity) //откроет все уровни вложенности
-console.log(res1)
+// const initialArr = [ 1, 2, [ 3, 4, ['test 1', 'test 2', [1, 2]] ], [ 5, 6 ] ]
+// const res = initialArr.flat() //по дефолту раскроет только один уровень вложенности
+// console.log('res: ', res)
+// const res1 = initialArr.flat(Infinity) //откроет все уровни вложенности
+// console.log(res1)
+
+//Practical Task На выходе хочу собрать всю информацию с массива и получить на выходе один массив с информацией
+
+// let usersFromAPI1 = [
+//     { id: 1, name: 'Alice' },
+//     { id: 2, name: 'Bob' },
+// ];
+//
+// let usersFromAPI2 = [
+//     { id: 3, name: 'Charlie' },
+//     { id: 4, name: 'David' },
+// ];
+//
+// const resultApi = usersFromAPI1.concat(usersFromAPI2)
+// const resultApi2 = [...usersFromAPI1, ...usersFromAPI2]
+// console.log(resultApi2)
