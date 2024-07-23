@@ -184,3 +184,11 @@
 // let userIP = '192.168.1.4'
 // console.log(allowedIPs.indexOf(userIP) === -1 ? 'Access Granted' : 'Access Denied')
 
+// При повторяющихся элементах возвращает первый найденный
+
+//lastIndexOf - функционал такой же как и в indexOf только поиск элементов идет с конца
+
+// const arr = [1, 2, 3, 4, 5, 3, 4, 3];
+
+// const res = arr.lastIndexOf(3)
+// console.log(res)
