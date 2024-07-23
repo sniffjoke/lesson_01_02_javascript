@@ -214,6 +214,10 @@
 
 //includes - метод массива, который проверяет включено ли значение в массив
 
-const arr = [1, 2, 3];
-const res = arr.includes(3)
-console.log(res)
+// const arr = [1, 2, 3];
+// const res = arr.includes(3)
+// console.log(res)
+
+// const words = ['spray', 'elite', 'exu', 'des', 'pre']
+// const res = words.filter(word => word.length ==  3) // [добавляет все найденные слова по условию]
+// console.log(res)
