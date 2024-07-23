@@ -242,7 +242,10 @@
 // console.log(res)
 // console.log(res2)
 
-let words = ['яблоко', 'банан', 'апельсин']
+// let words = ['яблоко', 'банан', 'апельсин']
 // let result = words.sort((a, b) => a.localeCompare(b))
-let result = words.sort((a, b) => b.localeCompare(a))
-console.log(result)
+// let result = words.sort((a, b) => b.localeCompare(a))
+// console.log(result)
+
+//toSorted работает также как sort, только иммутабельный
+//toReversed работает также как reverse, только иммутабельный
