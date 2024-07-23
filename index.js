@@ -74,3 +74,16 @@
 // const result4 = str4.split()
 // console.log(result4) //[ 'ab-cd-ef' ]
 
+//join - метод массива, объединяющий элементы в строку с указанным разделителем
+
+// // объединим элементы в строку с разделителем "-"
+// const names = ['Alex', 'Bob', 'Ivan', 'Sasha']
+// const result = names.join('-')
+// console.log('result: ', result)
+//
+// //пустой join (по дефолту запятая)
+// const names2 = ['Alex', 'Bob', 'Ivan', 'Sasha']
+// const result2 = names2.join()
+// const result3 = names2.join('')
+// console.log(result2)
+// console.log(result3)
