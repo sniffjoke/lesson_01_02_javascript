@@ -91,3 +91,7 @@
 // const telephoneNumber = '123456789'
 // const reverseTelephoneNumber = telephoneNumber.split('').reverse().join('')
 // console.log(reverseTelephoneNumber)
+
+const telephoneNumber = '123456789'
+const res = Array.from(telephoneNumber).reverse().join('')
+console.log(res)
