@@ -44,8 +44,16 @@
 
 //reverse() - меняет порядок элементов массива на обратный (мутабельным методом массива)
 
-const newArr = ['Alex', 'Bob', 'Ivan', 'Sasha']
-const reverseResult = newArr.reverse()
+// const newArr = ['Alex', 'Bob', 'Ivan', 'Sasha']
+// const reverseResult = newArr.reverse()
+//
+// console.log('newArr: ', newArr)
+// console.log('reverseResult: ', reverseResult)
 
-console.log('newArr: ', newArr)
-console.log('reverseResult: ', reverseResult)
+// split - метод для работы со строками
+
+// получить на выходе массив
+const str = 'ab-cd-ef'
+const result = str.split('-')
+console.log(str)
+console.log(result)
