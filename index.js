@@ -164,10 +164,23 @@
 
 //map - возвращает новый массивб принимает коллбек функцию и применяет эту коллбек функцию к каждому элементу массива
 
-const arr = [1, 2, 3, 4, 5]
-const res = arr.map((number) => {
-    console.log('number: ', number)
-    return number * 2
-})
+// const arr = [1, 2, 3, 4, 5]
+// const res = arr.map((number) => {
+//     console.log('number: ', number)
+//     return number * 2
+// })
+//
+// console.log(res)
 
-console.log(res)
+//indexOf
+
+// const arr = [1, 2, 3, 4, 5]
+// const result = arr.indexOf(4) //возвращает индекс
+// const isHere = arr.indexOf(10)
+// console.log(result)
+// console.log(isHere) // -1 в ответе сообщает, что элемента нет
+
+// let allowedIPs = ['192.168.1.1', '192.168.1.2', '192.168.1.3']
+// let userIP = '192.168.1.4'
+// console.log(allowedIPs.indexOf(userIP) === -1 ? 'Access Granted' : 'Access Denied')
+
