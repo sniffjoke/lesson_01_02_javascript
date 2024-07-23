@@ -221,3 +221,25 @@
 // const words = ['spray', 'elite', 'exu', 'des', 'pre']
 // const res = words.filter(word => word.length ==  3) // [добавляет все найденные слова по условию]
 // console.log(res)
+
+//sort - мутабельный метод массива
+
+// const numbers = [-1, 100, 2323, -3243532, 234, 45, 78, 0, 11]
+// console.log(numbers.sort()) // сортирует по значению в таблице
+// console.log(numbers)
+
+//arr.sort(sortedFunction) - функция сравнения (сортировкиk)
+let numbers = [5, 2, 9, 1, 5, 6]
+//числу а = 5
+//числу b = 2
+//применяем инструкцию a - b
+//a(5) - b(2) = 3
+//если получаем число положительное (результат > 0), то мы меняем местами (т.е. а должно быть перед b)
+//если результат < 0, то b будет перед а
+//если результат равен нулю, то порядок не меняется
+// const res = numbers.sort((a, b) => a - b)
+// const res2 = numbers.sort((a, b) => b - a)
+// console.log(res)
+// console.log(res2)
+
+
