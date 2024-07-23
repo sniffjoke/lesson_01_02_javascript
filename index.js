@@ -192,3 +192,12 @@
 
 // const res = arr.lastIndexOf(3)
 // console.log(res)
+
+//find
+
+// const words = ['spray', 'elite', 'exu', 'des', 'present']
+// const res = words.find(item => {
+//     return item.length == 3
+// })
+//
+// console.log(res)
