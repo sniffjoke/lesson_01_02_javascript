@@ -39,3 +39,13 @@
 //
 // console.log('names4: ', names4)
 // console.log('unshiftResult: ', unshiftResult) // - возвращает длину массива
+
+//////////////////////////////
+
+//reverse() - меняет порядок элементов массива на обратный (мутабельным методом массива)
+
+const newArr = ['Alex', 'Bob', 'Ivan', 'Sasha']
+const reverseResult = newArr.reverse()
+
+console.log('newArr: ', newArr)
+console.log('reverseResult: ', reverseResult)
