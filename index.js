@@ -201,3 +201,15 @@
 // })
 //
 // console.log(res)
+
+//findIndex
+
+// const arr = [1, 2, 3, 4, 5];
+// const res = arr.findIndex(el => {
+//     return el%2 == 0
+// })
+// console.log(res)
+
+//при ненахождении элемента возвращает "-1"
+
+
