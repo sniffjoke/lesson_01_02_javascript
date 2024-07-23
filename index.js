@@ -53,7 +53,24 @@
 // split - метод для работы со строками
 
 // получить на выходе массив
-const str = 'ab-cd-ef'
-const result = str.split('-')
-console.log(str)
-console.log(result)
+// const str = 'ab-cd-ef'
+// const result = str.split('-')
+// console.log(str)
+// console.log(result)
+
+// на выходе хочу получить каждый элемент отдельно
+// const str2 = 'ab-cd-ef' //expected result: ['a', 'b', '-', 'c', 'd'...]
+// const result2 = str2.split('')
+// console.log(result2)
+
+//лимиты в сплите
+
+// const str3 = 'Hello new World!'
+// const result3 = str3.split(' ', 2)
+// console.log(result3) //[ 'Hello', 'new' ]
+
+//пустой сплит
+// const str4 = 'ab-cd-ef'
+// const result4 = str4.split()
+// console.log(result4) //[ 'ab-cd-ef' ]
+
