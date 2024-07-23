@@ -92,6 +92,32 @@
 // const reverseTelephoneNumber = telephoneNumber.split('').reverse().join('')
 // console.log(reverseTelephoneNumber)
 
-const telephoneNumber = '123456789'
-const res = Array.from(telephoneNumber).reverse().join('')
-console.log(res)
+// const telephoneNumber = '123456789'
+// const res = Array.from(telephoneNumber).reverse().join('')
+// console.log(res)
+
+//concat - метод массива (не мутирующий)
+
+// const arr1 = [1, 2];
+// const arr2 = [3, 4];
+// const arr3 = [5, 6];
+//
+// const result = arr1.concat(arr2, arr3, 'test value 1')
+// console.log('arr1: ', arr1)
+// console.log('result: ', result)
+
+//concat быстрее spread оператора
+
+//example 1
+// const newArr1 = [1, 2];
+// const newArr2 = [[3, 4], [5,6]];
+// const result = newArr1.concat(newArr2)
+// console.log(result)
+//concat не раскрывает скобки
+
+//flat
+const initialArr = [ 1, 2, [ 3, 4, ['test 1', 'test 2', [1, 2]] ], [ 5, 6 ] ]
+const res = initialArr.flat() //по дефолту раскроет только один уровень вложенности
+console.log('res: ', res)
+const res1 = initialArr.flat(Infinity) //откроет все уровни вложенности
+console.log(res1)
